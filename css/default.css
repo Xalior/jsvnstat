@@ -1,0 +1,121 @@
+#content { 
+ float: left;
+ color: #333;
+ border: 3px solid #d1f899;
+ width: 700px;
+ display: inline;
+}
+
+#header {
+ color: #333;
+ width: 400px;
+ height: 30px;
+ padding: 2px 0px 10px 375px;
+ float: left;
+}
+
+#footer { 
+ font-size: 9px;
+ width: 600px;
+ height: 20px;
+ padding: 5px 0px 0px 109px;
+ clear: both;
+ color: #333;
+}
+
+#leftcolumn {
+ font-size: 11px;
+ color: #333;
+ width: 90px;
+ float: left;
+ padding-top: 5px;
+}
+
+#placeholder {
+ width:700px;
+ height:300px;
+}
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Lucidatypewriter, monospace;
+ font-size: 14px;
+ margin: 0 auto;
+ width: 800px;
+}
+
+a:link {
+ color: #333;
+ text-decoration: none;
+ border-bottom:2px dotted #d1f899;
+}
+a:visited {
+ color: #979797;
+ text-decoration: none;
+ border-bottom:2px dotted #d1f899;
+}
+a:hover, a:active {
+ color: #979797;
+ background: #d1f899;
+ text-decoration: none;
+}
+
+acronym {
+ border-bottom: none;
+ cursor: help;
+}
+
+table.graph {
+ font-size: 11px;
+ width: 700px;
+ text-align: right;
+}
+
+tr.title {
+ background: #d1f899;
+ text-align: center;
+ font-weight: bold;
+}
+
+tr.even {
+ background: #fff;
+}
+
+tr.odd {
+ background: #F3F8EC;
+}
+
+td.time {
+ text-align: left;
+}
+
+label.radio_checked {
+ font-size: 16px;
+ background: #d1f899;
+ color: #7a9751;
+ padding: 5px;
+}
+
+label.radio_unchecked  {
+ font-size: 16px;
+ background: #eee;
+ color: #979797;
+ padding: 5px;
+}
+
+label.radio_unchecked:hover {
+ background: #e4e4e4;
+}
+
+p.warning {
+ color: #f00;
+ font-weight: bold;
+}
+
+/* do not edit! (needed for tabs)*/
+.crirHidden {
+ position: absolute;
+ left: -1000px;
+}
+/* thanks */
